@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table tr th{
+    text-transform: uppercase;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    background: blue;
+}
+
+
+.table tr td {
+    text-transform: capitalize;
+    text-align: left;
+    background: #80f7ff;
+    padding:.5rem 1.5rem;
+}
+
+.table .Behind{
+    text-align: left;
+    background: transparent;
+}
+
+.table tr:last-child td {
+    font-weight: bold;
+}
